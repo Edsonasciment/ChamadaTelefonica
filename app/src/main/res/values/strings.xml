@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SimulandoChamada</string>
+
+    <string name="btn_Ponto">.</string>
+    <string name="btn_Ast">*</string>
+    <string name="btn_N1">1</string>
+    <string name="btn_N2">2</string>
+    <string name="btn_N3">3</string>
+    <string name="btn_N4">4</string>
+    <string name="btn_N5">5</string>
+    <string name="btn_N6">6</string>
+    <string name="btn_N7">7</string>
+    <string name="btn_N8">8</string>
+    <string name="btn_N9">9</string>
+    <string name="btn_N0">0</string>
+
+</resources>
+
