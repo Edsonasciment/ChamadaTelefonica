@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         meusDados = getSharedPreferences(mypreference, Context.MODE_PRIVATE);
 
         Button btnLogin = findViewById(R.id.btn_Login);
-        TextView btn_Casdastrar = findViewById(R.id.txt_Registrar);
+        TextView btn_Cadastrar = findViewById(R.id.txt_Registrar);
         final EditText email = findViewById(R.id.edt_Email);
         final EditText senha = findViewById(R.id.edt_NovaSenha);
 
@@ -62,6 +62,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        btn_Cadastrar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, CadastrarActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
 
 
     }
